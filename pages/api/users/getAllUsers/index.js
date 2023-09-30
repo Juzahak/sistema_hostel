@@ -3,7 +3,7 @@ import clientPromise from "../../../../util/mongo";
 const getallusers =  async (req, res) => {
   try {
     const client = await clientPromise;
-    const db = client.db("Hosteldeluz");
+    const db = client.db("ESPELHO_SISTEMA");
 
     const customer = await db
       .collection("access")

@@ -6,7 +6,7 @@ export default async (req, res) => {
 
   try {
     const client = await clientPromise;
-    const db = client.db("Hosteldeluz");
+    const db = client.db("ESPELHO_SISTEMA");
     
     const deleteCustomer = db.collection("terms_responsibility").deleteOne({ _id: objectid })
       .then((data) => console.log(data))

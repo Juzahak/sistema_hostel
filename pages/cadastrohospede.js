@@ -80,7 +80,7 @@ export default function Home() {
       nomefantasia: 'HOSTEL DE LUZ',
       endereco: 'RUA JOSÉ PATERNO, 170 - VILA JOÃO JORGE - CAMPINAS-SP',
       telefone: '(19) 98422-2373',
-      email: 'hosteldeluz@gmail.com'
+      email: 'ESPELHO_SISTEMA@gmail.com'
     },
     {
       parametro: '2',
@@ -89,7 +89,7 @@ export default function Home() {
       nomefantasia: 'HOSTEL DE LUZ',
       endereco: 'RUA THOMAS ALVES BROWN, 212 JARDIM TREVO',
       telefone: '(19) 98422-2373',
-      email: 'hosteldeluz@gmail.com'
+      email: 'ESPELHO_SISTEMA@gmail.com'
     },
   ]
 

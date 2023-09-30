@@ -6,7 +6,7 @@ const deleteCheckin = async (req, res) => {
 
   try {
     const client = await clientPromise;
-    const db = client.db("Hosteldeluz");
+    const db = client.db("ESPELHO_SISTEMA");
     const deleteCustomer = db.collection("hospedes").deleteOne({ _id: objectid })
       .then((data) => console.log(data))
       .catch(err => console.log(err));

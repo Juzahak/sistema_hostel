@@ -54,7 +54,7 @@ export default function Home() {
                       <h4 className="text-center mb-3 mt-3">Obrigado por se cadastrar, visite nossa redes sociais!</h4>
                       <div className="d-flex justify-content-center">
                         <div className="p-2">
-                          <a href='https://www.instagram.com/hosteldeluz/' target='_blank' rel='noreferrer'>
+                          <a href='https://www.instagram.com/ESPELHO_SISTEMA/' target='_blank' rel='noreferrer'>
                           <Image
                             src={require('../assets/img/instagram.png')}
                             width={50}
