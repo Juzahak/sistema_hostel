@@ -4,7 +4,7 @@ import { ObjectId } from 'mongodb';
 export default async (req, res) => {
   try {
     const client = await clientPromise;
-    const db = client.db("ESPELHO_SISTEMA");
+    const db = client.db("sisteminha");
     const objectid = new ObjectId(req.query.id);
 
     const getCustomerByID = await db.collection("policy_privacity")

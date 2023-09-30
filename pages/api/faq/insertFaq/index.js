@@ -3,7 +3,7 @@ import clientPromise from "../../../../util/mongo";
 export default async (req, res) => {
   try {
     const client = await clientPromise;
-    const db = client.db("ESPELHO_SISTEMA");
+    const db = client.db("sisteminha");
 
     db.collection("faq").insertOne({
       question: req.body.question,
