@@ -7,12 +7,12 @@ import { getStorage } from 'firebase/storage';
 
 // Your web app's Firebase configuration
 const firebaseConfig = {
-  apiKey: "AIzaSyDl_vO0FEYQlIm49ICEFsMQahXnrYRwkQc",
-  authDomain: "hostel-de-luz.firebaseapp.com",
-  projectId: "hostel-de-luz",
-  storageBucket: "hostel-de-luz.appspot.com",
-  messagingSenderId: "367899159020",
-  appId: "1:367899159020:web:9b401e989a1eb3f4c338c9"
+  apiKey: "AIzaSyCNBq0FwPKJEfe4DZ52A2Ed1cdGVj3VgSQ",
+  authDomain: "sistema-bc6a1.firebaseapp.com",
+  projectId: "sistema-bc6a1",
+  storageBucket: "sistema-bc6a1.appspot.com",
+  messagingSenderId: "430345511308",
+  appId: "1:430345511308:web:9ec4e05282e442b70cf6a9"
 };
 
 // Initialize Firebase
